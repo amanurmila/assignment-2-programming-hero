@@ -267,7 +267,9 @@ nav {
 .bmi-calculator {
   width: 47%;
   height: 6.5rem;
-  margin: 50px auto;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 .bmi-calculator h2 {
   color: rgb(255, 255, 255);
@@ -284,8 +286,6 @@ nav {
   width: 100%;
   height: 27rem;
   background: rgb(34, 34, 34);
-}
-.bmi-main-part {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -335,12 +335,145 @@ table tr td {
   height: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
+  color: #fff;
 }
-#large-input{
+#large-input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   width: 29.2rem;
   height: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
+}
+input::placeholder {
+  padding-left: 10px;
+}
+.bmi-btn {
+  padding: 0.6rem 2.2rem;
+  border-radius: 2.6rem;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  margin-top: 0.6rem;
+  margin-left: 5px;
+}
+
+/* Meet Our Team Section */
+.team-section {
+  width: 74%;
+  height: 43rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.team-titles {
+  width: 37rem;
+  height: 6.6rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.team-titles h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+.team-titles p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+}
+.team-images {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+.team-first3-img,
+.team-second3-img {
+  display: flex;
+}
+.first-img1 {
+  background-image: url(../images/trainer1.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  width: 18.3rem;
+  height: 14.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 6px 6px 12px;
+  border-radius: 1rem;
+}
+.second-img1 {
+  background-image: url(../images/trainer2.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  width: 18.3rem;
+  height: 14.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 6px 6px 6px;
+  border-radius: 1rem;
+}
+.third-img1 {
+  background-image: url(../images/trainer3.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  width: 18.3rem;
+  height: 14.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 12px 6px 6px;
+  border-radius: 1rem;
+}
+.first-img2 {
+  background-image: url(../images/trainer4.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  width: 18.3rem;
+  height: 14.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 6px 12px 12px;
+  border-radius: 1rem;
+}
+.second-img2 {
+  background-image: url(../images/trainer5.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  width: 18.3rem;
+  height: 14.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 6px 12px 6px;
+  border-radius: 1rem;
+}
+.third-img2 {
+  background-image: url(../images/trainer6.png);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  width: 18.3rem;
+  height: 14.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 12px 12px 6px;
+  border-radius: 1rem;
+}
+.img-titles div{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.img-titles div h4 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin: 5px 10px;
+}
+.img-titles div p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 5px 10px;
 }
