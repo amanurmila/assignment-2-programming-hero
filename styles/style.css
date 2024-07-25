@@ -2,18 +2,14 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: #111111;
 }
 
 /* Header Section Styles */
 header {
   width: 100%;
   height: 40rem;
-  border: 2px solid red;
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17) 100%,
-    rgba(119, 119, 119, 0) 100%
-  );
+  border: 2px solid #111111;
 }
 
 /* Navbar Section Styles */
@@ -157,4 +153,194 @@ nav {
   position: absolute;
   top: 120px;
   left: 210px;
+}
+
+/* Habit Section Styles */
+.habit-section {
+  width: 74%;
+  height: 22rem;
+  margin: 4rem auto;
+  border: 2px solid #111111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.habit-contents-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.habit-heading {
+  width: 30rem;
+  height: 8rem;
+  margin: 0 auto;
+  margin-top: -4rem;
+  text-align: center;
+}
+.habit-heading h3 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.habit-heading p {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: -1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+.habit-content {
+  width: 11rem;
+  height: 13rem;
+}
+.habit-content img {
+  border-radius: 50%;
+  width: 9rem;
+  height: 9rem;
+}
+.habit-content h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.habit-content p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+/* Run Section */
+.run-section {
+  width: 74%;
+  height: 17rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  background: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+}
+.run-content {
+  width: 25rem;
+  height: 15rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+.run-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+.run-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: -0.7rem;
+}
+.run-content button {
+  padding: 0.8rem 2rem;
+  border-radius: 2.3rem;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+.run-image img {
+  width: 17rem;
+  height: 14.5rem;
+  margin: 1rem;
+  margin-right: 2rem;
+  border-radius: 18px;
+}
+
+/* BMI Calculator Section */
+.bmi-calculator {
+  width: 47%;
+  height: 6.5rem;
+  margin: 50px auto;
+}
+.bmi-calculator h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+.bmi-calculator p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.bmi-main-part {
+  width: 100%;
+  height: 27rem;
+  background: rgb(34, 34, 34);
+}
+.bmi-main-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.table-section h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+table tr td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+.table-bold {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.bmi-section {
+  width: 31rem;
+  height: 16rem;
+}
+.bmi-section h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 0;
+  margin-left: 5px;
+}
+.bmi-section p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 5px;
+}
+.forms div input {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 14rem;
+  height: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 5px;
+}
+#large-input{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 29.2rem;
+  height: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 5px;
 }
