@@ -536,3 +536,159 @@ input::placeholder {
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
 }
+
+/* Footer Section */
+footer {
+  width: 100%;
+  height: 25rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-content {
+  width: 74%;
+  height: 14rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+.footer-content .left-content {
+  width: 34%;
+}
+.left-content h2 {
+  color: rgb(230, 83, 60);
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin: 0;
+}
+.left-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.middle-content h4,
+.right-content h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.middle-content p,
+.right-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.nav-icon {
+  color: white;
+  font-size: 25px;
+  display: none;
+}
+.copyright p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* For Small Device */
+@media screen and (max-width: 576px) {
+  section {
+    width: 100%;
+  }
+  .nav-content {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .banner {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .habit-section {
+    margin-top: 750px;
+    margin-left: 20px;
+  }
+  .habit-contents-section {
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;
+  }
+  .run-section {
+    flex-direction: column;
+    margin-top: 400px;
+    height: 100%;
+  }
+  .run-image img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .bmi-calculator {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+  }
+  .bmi-main-part {
+    flex-direction: column;
+    height: 100%;
+  }
+  .bmi-section {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .team-section {
+    width: 100%;
+    height: 100%;
+  }
+  .team-titles {
+    width: 100%;
+    height: 100%;
+  }
+  .team-first3-img {
+    flex-direction: column;
+  }
+  .first-img1,
+  .second-img1,
+  .third-img1 {
+    width: 100%;
+    height: 100vh;
+    margin: 10px 0;
+  }
+  .team-second3-img {
+    flex-direction: column;
+  }
+  .first-img2,
+  .second-img2,
+  .third-img2 {
+    width: 100%;
+    height: 100vh;
+    margin: 10px 0;
+  }
+  .creation-section {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    gap: 50px;
+  }
+  .creation-content {
+    margin: 0;
+  }
+  .creation-img {
+    text-align: center;
+  }
+  footer {
+    height: 100%;
+  }
+  .footer-content {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-left: 50px;
+    align-items: start;
+  }
+}
