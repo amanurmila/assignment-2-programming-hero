@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -133,10 +134,16 @@
               </div>
               <div>
                 <input type="text" placeholder="Age">
-                <input type="text" placeholder="Sex">
+                <select name="Sex" id="sex">
+                  <option value="">Sex</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
               </div>
               <div>
-              <input id="large-input" type="text" placeholder="Select an activity factor">
+                <select id="large-input">
+                  <option value="">Select an activity factor</option>
+                </select>
               </div>
               <button class="bmi-btn">Calculate</button>
             </form>
@@ -181,7 +188,20 @@
           </div>
         </div>
        </section>
+       <section class="creation-section">
+        <div class="creation-img">
+          <img src="./images/swimming.webp" alt="">
+        </div>
+        <div class="creation-content">
+          <h3>Swim Everyday & Feel Better</h3>
+          <p>Swimming is a very good exercise that can make your body fit. So, You should swim everyday more than 30 minutes.</p>
+          <button>Join Now</button>
+          <button id="special-btn">Keep Update</button>
+        </div>
+       </section>
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
 </html>
