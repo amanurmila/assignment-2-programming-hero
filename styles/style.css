@@ -47,6 +47,10 @@ nav {
   border-radius: 2.6rem;
   background: rgb(230, 83, 60);
 }
+.nav-content {
+  padding: 0;
+  margin: 0;
+}
 
 /* Banner Section Styles */
 .banner {
