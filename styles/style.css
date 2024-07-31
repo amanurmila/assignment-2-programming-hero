@@ -13,7 +13,7 @@ header {
   border: 2px solid #111111;
 }
 
-/* Navbar Section Styles */
+/* Header -> Navbar Section Styles */
 nav {
   width: 74%;
   height: 2rem;
@@ -52,7 +52,7 @@ nav {
   margin: 0;
 }
 
-/* Banner Section Styles */
+/* Header -> Banner Section Styles */
 .banner {
   width: 74%;
   margin: 0 auto;
