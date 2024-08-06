@@ -61,8 +61,8 @@ nav {
   justify-content: space-between;
 }
 .banner-content {
-  width: 33rem;
-  height: 24rem;
+  width: 100%;
+  height: 100%;
 }
 .banner-content h1 {
   color: rgb(255, 255, 255);
@@ -168,7 +168,6 @@ nav {
   width: 74%;
   height: 22rem;
   margin: 4rem auto;
-  border: 2px solid #111111;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,7 +180,7 @@ nav {
   margin-top: 2rem;
 }
 .habit-heading {
-  width: 30rem;
+  width: 100%;
   height: 8rem;
   margin: 0 auto;
   margin-top: -4rem;
@@ -210,6 +209,7 @@ nav {
   border-radius: 50%;
   width: 9rem;
   height: 9rem;
+  border: 5px solid #1A1A1A;
 }
 .habit-content h4 {
   font-size: 0.9rem;
@@ -238,7 +238,7 @@ nav {
   border-radius: 18px;
 }
 .run-content {
-  width: 25rem;
+  width: 100%;
   height: 15rem;
   margin-left: 3rem;
   margin-bottom: 3rem;
@@ -292,7 +292,7 @@ nav {
 }
 .bmi-main-part {
   width: 100%;
-  height: 27rem;
+  height: 29rem;
   background: rgb(34, 34, 34);
   display: flex;
   justify-content: space-around;
@@ -340,7 +340,7 @@ table tr td {
 .forms div select {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
-  width: 14rem;
+  width: 45%;
   height: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
@@ -354,7 +354,7 @@ table tr td {
 #large-input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
-  width: 29.2rem;
+  width: 95%;
   height: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 5px;
@@ -599,44 +599,103 @@ footer {
 
 /* For Small Device */
 @media screen and (max-width: 576px) {
+  /* For All Sections */
   section {
     width: 100%;
   }
+
+  /* Navbar section */
   .nav-content {
     display: none;
   }
   .nav-icon {
     display: block;
   }
+
+  /* Banner Section */
   .banner {
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
   }
+  .banner-content h1 {
+    font-size: 2.5rem;
+  }
+  .banner-content {
+    font-size: 0.8rem;
+  }
+  .video-tutorial{
+    width: 9rem;
+    height: 5rem;
+    right: 190px;
+  }
+  .video-tutorial .circle-div{
+    width: 2rem;
+    height: 2rem;
+  }
+  .video-tutorial h2, .workout-videos h2{
+    font-size: 1rem;
+  }
+  .video-tutorial p, .workout-videos p{
+    font-size: 0.7rem;
+  }
+  .workout-videos{
+    width: 9rem;
+    height: 5rem;
+    left: 190px;
+  }
+  .banner-image img{
+    width: 100%;
+    height: 100vh;
+  }
+  /* Habit Section */
   .habit-section {
-    margin-top: 750px;
-    margin-left: 20px;
-    padding-top: 40px;
+    margin-top: 37rem;
+    margin-left: 1.25rem;
+    padding-top: 2.5rem;
   }
   .habit-contents-section {
     flex-direction: column;
     margin: auto;
     gap: 2rem;
-    padding-left: 120px;
-    padding-top: 40px;
+    padding-left: 7.5rem;
+    padding-top: 2.5rem;
   }
+  .habit-heading {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-left: 30px;
+  }
+  .habit-heading h3{
+    font-size: 1.5rem;
+  }
+  /* Run Section */
   .run-section {
     flex-direction: column;
-    margin-top: 400px;
+    margin-top: 25rem;
     height: 100%;
+    width: 100%;
+  }
+  .run-content{
+    width: 90%;
+  }
+  .run-content h2{
+    font-size: 2rem;
+  }
+  .run-content p{
+    font-size: 0.8rem;
     width: 100%;
   }
   .run-image img {
     width: 100%;
     margin-left: 0;
   }
+
+  /* BMI Section */
   .bmi-calculator {
-    margin-top: 80px;
+    margin-top: 5rem;
     width: 100%;
     height: 100%;
   }
@@ -646,8 +705,13 @@ footer {
   }
   .bmi-section {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 1rem;
   }
+  .forms{
+    width: 100%;
+  }
+
+  /* Team Section */
   .team-section {
     width: 100%;
     height: 100%;
@@ -662,9 +726,9 @@ footer {
   .first-img1,
   .second-img1,
   .third-img1 {
-    width: 100%;
+    width: 95%;
     height: 100vh;
-    margin: 10px 0;
+    margin: 10px auto;
   }
   .team-second3-img {
     flex-direction: column;
@@ -676,12 +740,14 @@ footer {
     height: 100vh;
     margin: 10px 0;
   }
+
+  /* Creation Section */
   .creation-section {
     flex-direction: column-reverse;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     height: 100%;
     width: 100%;
-    gap: 50px;
+    gap: 3.1rem;
   }
   .creation-content {
     margin: 0;
@@ -689,6 +755,11 @@ footer {
   .creation-img {
     text-align: center;
   }
+  .creation-img img{
+    width: 100%;
+  }
+
+  /* Footer Section */
   footer {
     height: 100%;
     width: 100%;
