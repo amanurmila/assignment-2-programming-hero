@@ -628,7 +628,8 @@ footer {
   .video-tutorial{
     width: 9rem;
     height: 5rem;
-    right: 190px;
+    right: 170px;
+    top: 350px;
   }
   .video-tutorial .circle-div{
     width: 2rem;
@@ -643,7 +644,7 @@ footer {
   .workout-videos{
     width: 9rem;
     height: 5rem;
-    left: 190px;
+    left: 170px;
   }
   .banner-image img{
     width: 100%;
