@@ -729,7 +729,7 @@ footer {
   .third-img1 {
     width: 100%;
     height: 100vh;
-    margin: 10px auto;
+    margin: 10px 0;
   }
   .team-second3-img {
     flex-direction: column;
@@ -739,7 +739,7 @@ footer {
   .third-img2 {
     width: 100%;
     height: 100vh;
-    margin: 10px  auto;
+    margin: 10px  0;
   }
 
   /* Creation Section */
